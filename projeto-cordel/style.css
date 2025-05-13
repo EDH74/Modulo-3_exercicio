@@ -60,32 +60,44 @@ p > a:hover{
 
 main{
     font-family: var(--font3);
-    font-size: 2vw;
+    font-size: 3vw;
     font-style: italic;
 }
 
 section{
-    padding: 20px;
+    padding-left: 20px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+
 }
 
 section#imagem1{
- background-image: url(imagens/background001.jpg);
+    background-color: aquamarine;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 section#imagem2{
-
-    background-image: url(imagens/background002.jpg);
+    background-color: aqua;
     background-position: center center;
     background-repeat: no-repeat;
 
     background-attachment: scroll;
 }
 
-.img{
+section.img > p{
     background-color: rgba(0, 0, 0, 0.363); 
     padding: 10px;
-    width: 400px;
+    min-width: 10vw;
+    max-width: 50vw;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: black;
     color: white;
+    font-family: var(--font3);
+    text-align: center;
+    padding: 20px;
 }
