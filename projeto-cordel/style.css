@@ -60,7 +60,7 @@ p > a:hover{
 
 main{
     font-family: var(--font3);
-    font-size: 3vw;
+    font-size: 4vw;
     font-style: italic;
 }
 
@@ -71,19 +71,24 @@ section{
 
 }
 
+section > p{
+    padding-bottom: 2em;
+    display: inline-block;
+}
+
+.img{
+    box-shadow: inset 5px 5px 13px rgba(0, 0, 0, 0.404);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 section#imagem1{
-    background-color: aquamarine;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
 }
 
 section#imagem2{
-    background-color: aqua;
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    background-attachment: scroll;
+    background-image: url(imagens/background002.jpg);
 }
 
 section.img > p{
@@ -92,7 +97,7 @@ section.img > p{
     min-width: 10vw;
     max-width: 50vw;
     color: rgb(255, 255, 255);
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 footer{
