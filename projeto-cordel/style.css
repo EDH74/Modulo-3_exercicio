@@ -60,7 +60,7 @@ p > a:hover{
 
 main{
     font-family: var(--font3);
-    font-size: 4vw;
+    font-size: 4lvw;
     font-style: italic;
 }
 
@@ -97,7 +97,7 @@ section.img > p{
     min-width: 10vw;
     max-width: 50vw;
     color: rgb(255, 255, 255);
-    font-size: 4vw;
+    font-size:4lvw;
 }
 
 footer{
