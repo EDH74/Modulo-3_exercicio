@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Tabelas</title>
+</head>
+
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    tbody > tr:nth-child(even){
+        background-color: rgb(64, 214, 214);
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 500px;
+    }
+    th{
+        background-color: rgb(39, 39, 39);
+        color: white;
+
+    }
+    th, td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <h1>Uso de tabelas Grande</h1>
+    <table>
+        <theade>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>84.498.498</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>9.978.889</td>
+            </tr>
+            <tr>
+                <td>Tocatins</td>
+                <td>94.519</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>984.988.841</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>1988191
+            </td>
+        </tbody>
+        <tfoot>
+            <th>Total Habitantes</th>
+            <th>291.981.981.981</th>
+        </tfoot>
+    </table>
+</body>
+</html>
